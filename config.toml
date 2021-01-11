@@ -1,0 +1,66 @@
+baseurl         = "https://rvhaasen.github.io"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  subtitle       = "Rick's blogs"
+  title    = "A collection of things i do..."
+
+  cover       = "uploads/header.jpg"
+  description = "Rick van Haasen's Site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "rvhaasen"
+
+#  logo = "hugo-logo.png"
+  orgName = "Rick van Haasen"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Rick"
+  authorAvatar = "uploads/me.jpg"
+  authorLocation = "Timboektoe, Earth"
+  authorWebsite = "https://blog.biteplanet.com"
+  authorDescription = "Developer, maker" 
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "Interesting"
+  url = "/categories/interesting/"
+  weight = 99
+
+[[menu.main]]
+  name = "In and around the house"
+  url = "/categories/domestic/"
+  weight = 99
+
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
