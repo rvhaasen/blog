@@ -1,4 +1,4 @@
-baseurl         = "https://rvhaasen.github.io"
+baseurl         = "https://rvhaasen.github.io/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -22,7 +22,7 @@ paginate        = 6
 
 #  logo = "hugo-logo.png"
   orgName = "Rick van Haasen"
-  orgWebsite = "https://www.telematika.org"
+  orgWebsite = "https://www.biteplanet.com"
   orgDescription = "Here is a description placeholder for your org"
 
   author = "Rick"
@@ -37,7 +37,7 @@ paginate        = 6
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/:slug/"
+  post = "/post/:slug/"
 
 [[menu.main]]
   name = "Main"

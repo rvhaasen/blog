@@ -1,5 +1,5 @@
 ---
-title: "Rabbit gone..."
+title: "Rabbit gone"
 date: 2021-01-06T13:15:20Z
 image: "uploads/konijn-pexels.jpg"
 categories: [domestic]
