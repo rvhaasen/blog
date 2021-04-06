@@ -13,12 +13,12 @@ The result is the blogging site that you are looking at.
 
 ## Whats so nice about Hugo?
 
-In my opinion there are many reasons:
+I like hugo because:
 
 - **I'm not a web-developer and want to focus on content** \
 In Hugo, content is written in mark-down.
 - **The software is opensource**
-- **Static website** \
+- **Hugo builds a static website** \
 Hugo translates the resources into static html. This is easy to deploy to a webserver. Also there are much less security concerns (no databases that can be compromised or otherwise accessed) 
 - **Result can directly be viewed during development** \
 For this, hugo can serve the site localy and update the result when content is added or changed. This results is a very smooth experience: just update the content from e.g. vim and immediately see the results in the browser! 
@@ -27,7 +27,8 @@ For this, hugo can serve the site localy and update the result when content is a
 ## Cookbook
 There are many resources on the web how Hugo can be used.
 I started with following video. There are some problems when following this method, these are addressed in my 'cookbook' section. In the video, Hugo is installed on the host. I perfer to run it from docker, this is also described in the cookbook.
-{{< yt c7vpcqA6SEQ>}}
+(Update: after some time I changed theme from 'Casper' to 'Mainroad'', the reason is that Casper is not updated for newer hugo version causing things to break)
+{{< youtube c7vpcqA6SEQ>}}
 
 After several days of exploration I got a good grip on it. There were several issues that had to be solved. These will be addressed in following sections.
 Here my cookboot how to use Hugo on Windows (same method can be used on Mac and Linux):
@@ -43,7 +44,7 @@ Here my cookboot how to use Hugo on Windows (same method can be used on Mac and 
     $ cd c:\projects
     $ mkdir blog
     $ docker run --name hugo --rm -it -p 1313:1313 -v ${pwd}:/src 
-        klakegg/hugo:0.80.0-alpine shell
+        klakegg/hugo:0.80.0-alpine bash 
     hugo:/src$ 
     ```
 4. **Initialize a new site 'blog'** 
@@ -68,9 +69,9 @@ Here my cookboot how to use Hugo on Windows (same method can be used on Mac and 
     use the video to check things if the site does not render as expected.
 9. **Create a second terminal connection to the container**  
     (In this way, Hugo stays active in the other shell instance)
-    ```bash
+    ```
     $ cd c:\projects\blog
-    $ docker exec -it hugo shell
+    $ docker exec -it hugo sh
     ```
 10. **Create a first blog entry**  
      ```bash

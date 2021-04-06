@@ -1,0 +1,80 @@
+baseurl         = "https://rvhaasen.github.io/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title    = "A collection of things"
+  subtitle = "Rick's blogs"
+
+  cover       = "uploads/header.jpg"
+  description = "Rick van Haasen's Site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = ""
+  githubName = "rvhaasen"
+
+#  logo = "hugo-logo.png"
+  orgName = "Rick van Haasen"
+  orgWebsite = "https://www.biteplanet.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Rick"
+  authorAvatar = "uploads/me.jpg"
+  authorLocation = "Timboektoe, Earth"
+  authorWebsite = "https://blog.biteplanet.com"
+  authorDescription = "Developer, maker" 
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "Interesting"
+  url = "/categories/interesting/"
+  weight = 70 
+
+[[menu.main]]
+  name = "IoT"
+  url = "/categories/IoT/"
+  weight = 99
+
+[[menu.main]]
+  name = "devops"
+  url = "/categories/devops/"
+  weight = 99
+
+[[menu.main]]
+  name = "domestic"
+  url = "/categories/domestic/"
+  weight = 90
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv"
+  weight = 1
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
