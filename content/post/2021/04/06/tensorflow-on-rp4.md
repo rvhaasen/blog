@@ -3,7 +3,7 @@ title: "Tensorflow on RP4"
 date: 2021-04-06T17:09:24Z
 categories: ["DeepLearning", "IoT"]
 tags: ["Raspberry Pi"]
-draft: true
+draft: false
 ---
 As part of the Coursera Specialization course on Tensorflow deployment, RP4 is used to demonstrate TF-lite. It it based on a somewhat older version of TF and other libraries, hence installing it on a fresh device took some effort. The object detection example asumed a RP-camera, which I did not have. I used an Intel Realsense D435 camera which required manual steps to install on the RP.
 ![Object detection with TF-lite on RP4](/uploads/object_detection_on_rp4.jpg)

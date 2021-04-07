@@ -1,4 +1,8 @@
-baseurl = "/"
+baseurl    = "https://rvhaasen.github.io/"
+publishDir = "rvhaasen.github.io"
+enableEmoji = true
+
+
 title = "A collection of things"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
@@ -10,7 +14,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   name = "Rick"
   bio = "..."
   #avatar = "img/avatar.png"
-  avatar = "uploads/me.jpg"
+  avatar = "/uploads/me.jpg"
 
 [Params]
   description = "Ricks Personal blog about everything" # Description of your site

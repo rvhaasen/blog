@@ -11,5 +11,5 @@ black-friday, Prusa had an interesting offer which i could not refuse!
 The box arrived last week of 2020. 
 It took me slight more than 2 days to assemble the printer. The package contains a book with clear instructions. Having build a first one, a second printer would take much less time, I think it could then be build in about 1.5 day.
 
-Here some additional pictures: 
-![Building](/uploads/treefrog_print3d.jpg =100x100)
+Ofcourse the first print is the treefrog :slightly_smiling_face:
+![Building](/uploads/treefrog_print3d.jpg)

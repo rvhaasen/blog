@@ -1,7 +1,7 @@
 ---
 title: "Emulating RP on Pc"
 date: 2021-02-22T10:51:44Z
-draft: true
+draft: false
 categories: ["IoT"]
 ---
 

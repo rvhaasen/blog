@@ -82,6 +82,13 @@ Here my cookboot how to use Hugo on Windows (same method can be used on Mac and 
 
 
 ## When the magic fails...
+### General
+1.  **Emoji's are not rendered by default**  
+    add following line to the configuration:   
+    ```
+    enableEmoji = true  
+    ```
+### Specific for the casper-theme
 1.  **As mentioned, the latest blog is not visible on the main page**  
     The reason is because Hugo has 
 been updated after the video, this causes an issue the casper theme (author should update the theme code...) \
@@ -112,8 +119,12 @@ In order to solve it, change following line in the file 'themes\casper-two\layou
 3.  **Code-blocks not rendered well on mobile devices**  
     Appearently the codeblocks do not adapt to the screen, and long lines cause problems. Best to split long lines into shorter ones and test it using developer tool ( in browser)
 
+
+
+
+
 ## Manage and host the code in Github
-After the site is running fine localy, let hugo create the static site. The resulting files can be copied to a webserver.
+After the site is running fine localy, let hugo create the static site by running "hugo" (parameter publishdir in config determines the output location of the generated site). The resulting files can be copied to a webserver.
 Github offers a very elegant and easy way to manage the your code and host it on your github account. If you don't want to have your code in the public, you can use a private repositories. \
 Check [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/) for instructions. 
 
