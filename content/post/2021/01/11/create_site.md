@@ -44,7 +44,7 @@ Here my cookboot how to use Hugo on Windows (same method can be used on Mac and 
     $ cd c:\projects
     $ mkdir blog
     $ docker run --name hugo --rm -it -p 1313:1313 -v ${pwd}:/src 
-        klakegg/hugo:0.80.0-alpine bash 
+        klakegg/hugo:0.82.0-alpine shell 
     hugo:/src$ 
     ```
 4. **Initialize a new site 'blog'** 
@@ -69,7 +69,7 @@ Here my cookboot how to use Hugo on Windows (same method can be used on Mac and 
     use the video to check things if the site does not render as expected.
 9. **Create a second terminal connection to the container**  
     (In this way, Hugo stays active in the other shell instance)
-    ```
+    ```bash
     $ cd c:\projects\blog
     $ docker exec -it hugo sh
     ```
